@@ -1,0 +1,82 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2025-03-11T11:56:47.057Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3772287900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefnition.jusypay.i_initialize_drivers_for_DCS_automation()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login to flipkart page",
+        "description": "",
+        "id": "juspay-test;login-to-flipkart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2961452800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to flipcart Login page",
+            "match": {
+              "location": "stepDefnition.jusypay.navigate_to_flipcart_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111520000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter mobile number",
+            "match": {
+              "location": "stepDefnition.jusypay.enter_mobile_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83876500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "and click on continue",
+            "match": {
+              "location": "stepDefnition.jusypay.and_click_on_continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_01"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@system"
+          }
+        ]
+      }
+    ],
+    "name": "Juspay test",
+    "description": "",
+    "id": "juspay-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/juspay.feature",
+    "tags": []
+  }
+]

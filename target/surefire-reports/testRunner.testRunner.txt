@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.testRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.073 s <<< FAILURE! - in testRunner.testRunner
+Login to flipkart page(Juspay test)  Time elapsed: 1.072 s  <<< ERROR!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.36.0-linux
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.36.0-linux
+
+Login to flipkart page(Juspay test)  Time elapsed: 0.325 s  <<< ERROR!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.36.0-linux
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: No proper candidate URL to download geckodriver 0.36.0-linux
+
